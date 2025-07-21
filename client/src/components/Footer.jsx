@@ -7,9 +7,15 @@ const Footer = () => {
         <img src={assets.logo} alt="" width={150}/>
         <p className='flex-1 border-l border-gray-400 text-sm text-gray-500 max-sm:hidden text-center pt-3'>Copyright @AyushStack.dev | All rights reserved.</p>
         <div className='flex gap-2.5'>
-            <img href="https://www.facebook.com/share/1Scumno2dc/" src={assets.facebook_icon} alt="" width={35}/>
-            <img href="https://x.com/ayushsahu_08" src={assets.twitter_icon} alt="" width={35}/>
-            <img href="https://www.instagram.com/ig.ayush_xd/" src={assets.instagram_icon} alt="" width={35}/>
+            <a href="https://www.facebook.com/share/1Scumno2dc/" target="_blank">
+              <img  src={assets.facebook_icon} alt="" width={35}/>
+            </a>
+            <a href="https://x.com/ayushsahu_08" target="_blank">
+              <img src={assets.twitter_icon} alt="" width={35}/>
+            </a>
+            <a href="https://www.instagram.com/ig.ayush_xd/" target="_blank">
+              <img src={assets.instagram_icon} alt="" width={35}/>
+            </a>
         </div >
     </div>
   )
